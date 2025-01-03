@@ -1,0 +1,64 @@
+/* Footer.module.css */
+
+.container {
+  position: relative;
+  display: flex;
+  min-height: 300px;
+  background-color: #000; /* Black background */
+}
+
+.item {
+  flex: 1;
+  position: relative;
+}
+
+.item:first-child {
+  max-width: 300px; /* Adjust as needed */
+}
+
+.item:last-child {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  width: 33.33%;
+}
+
+.title {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+.detail {
+  font-size: 15px;
+  color: #ccc; /* Light grey text */
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.socialLinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconLink {
+  color: #fff; /* White text */
+  margin-right: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.copywright {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #aaa; /* Light grey text */
+  font-size: 12px;
+  font-family: 'Georgia', serif; /* Change font to Georgia */
+}

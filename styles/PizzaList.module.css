@@ -1,0 +1,77 @@
+/* PizzaList.module.css */
+
+.container {
+  padding: 30px 20px;
+  font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  flex: 1;
+  padding-right: 100px; /* Adjust padding */
+}
+
+.right {
+  flex: 2;
+  padding-left: 10px; /* Adjust padding */
+}
+
+.filters {
+  max-width: 400px; /* Limit width to prevent excessive stretching */
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
+}
+
+.sortSelect {
+  
+  margin-bottom: 30px; /* Add gap between sort select and filter */
+  margin-right: 20px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+
+.filterLabel {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.filterLabel input {
+  margin-right: 5px;
+}
+
+.searchInput {
+  padding: 8px 12px; /* Increased padding for better appearance */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  background-color: #fff; /* Added background color */
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+  gap: 10px; /* Reduced gap between cards */
+}
+
+@media screen and (max-width: 480px) {
+  .filters {
+    max-width: none; /* Allow filters to take full width on smaller screens */
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 20px; /* Add margin-bottom for spacing */
+  }
+
+  .wrapper {
+    flex-direction: column; /* Change flex-direction to column on smaller screens */
+  }
+}

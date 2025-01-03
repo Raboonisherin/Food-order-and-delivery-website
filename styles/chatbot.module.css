@@ -1,0 +1,32 @@
+/* chatbot.module.css */
+
+/* Set the background color of the chatbot container to black */
+.chatbot-container {
+    background-color: black;
+  }
+  
+  /* Set the text color of the chatbot content to white */
+  .chatbot-content {
+    color: white;
+  }
+  
+  /* Set the background color of the chatbot messages to black */
+  .chatbot-message {
+    background-color: black;
+  }
+  
+  /* Set the background color of the user input field to black */
+  .chatbot-input {
+    background-color: black;
+  }
+  
+  /* Set the text color of the user input field to white */
+  .chatbot-input input {
+    color: white;
+  }
+  
+  /* Set the background color of the chatbot avatar container to black */
+  .chatbot-avatar-container {
+    background-color: black;
+  }
+  
